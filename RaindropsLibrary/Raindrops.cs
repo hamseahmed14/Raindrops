@@ -2,7 +2,7 @@
 
 namespace RaindropsLibrary
 {
-    public class Class1
+    public class Raindrops
     {
     }
 }
