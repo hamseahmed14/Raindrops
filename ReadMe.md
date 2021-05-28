@@ -59,6 +59,22 @@ The test method has been written in gherkin syntax with the syntax structure of:
 
 
 
+### Tests
+
+The `PlingPlangPlong` function has the following tests:
+
+1. **Given** that the number has a factor of `3` **Then** return `Pling`
+2. **Given** that the number has a factor of `5` **Then** return `Plang`
+3. **Given** that the number has a factor of `7` **Then** return `Plong`
+4. **Given** that the number has a factor of `3` and `5` **Then** return `PlingPlang`
+5. **Given** that the number has a factor of `3` and `7` **Then** return `PlingPlong`
+6. **Given** that the number has a factor of `5` and `7` **Then** return `PlangPlong`
+7. **Given** that the number has a factor of `3` , `5` and `7` **Then** return `PlingPlangPlong`
+8. **Given** that the number does not have a factor of `3` or `5` or `7` **Then** return the `input number`
+9. **Given** that the number is `0` **Then** return `Pling Plang Plong`
+
+
+
 ## Conditional Statement
 
 To check if a requirement is met for the function I have used an IF statement. 
